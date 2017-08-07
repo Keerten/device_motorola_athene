@@ -195,9 +195,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
 # HIDL
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml \
-    $(LOCAL_PATH)/compatibility_matrix.xml:system/vendor/compatibility_matrix.xml
 
 # Keystore
 PRODUCT_PACKAGES += \
