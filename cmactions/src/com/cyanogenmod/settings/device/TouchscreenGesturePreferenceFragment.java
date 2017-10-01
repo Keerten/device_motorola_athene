@@ -29,6 +29,10 @@ import android.support.v14.preference.PreferenceFragment;
 import android.support.v14.preference.SwitchPreference;
 import android.text.TextUtils;
 
+import java.io.File;
+
+import org.lineageos.internal.util.FileUtils;
+
 public class TouchscreenGesturePreferenceFragment extends PreferenceFragment {
     private SwitchPreference mFlipPref;
     private NotificationManager mNotificationManager;

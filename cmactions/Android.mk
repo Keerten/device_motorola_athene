@@ -15,6 +15,9 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-recyclerview
 
+LOCAL_STATIC_JAVA_LIBRARIES := \
+    org.lineageos.platform.internal
+
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_RESOURCE_DIR := \
