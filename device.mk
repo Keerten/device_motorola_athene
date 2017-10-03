@@ -120,6 +120,11 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     android.hardware.camera.provider@2.4-impl
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    libprotobuf-cpp-lite
+
 # Disable camera Treble path
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_treble=true
