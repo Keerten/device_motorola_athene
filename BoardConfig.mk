@@ -85,6 +85,15 @@ BOARD_HARDWARE_CLASS += \
     $(LOCAL_PATH)/cmhw \
     hardware/cyanogen/cmhw
 
+#Dexpreoption
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+    endif
+  endif
+endif
+
 # Display
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_USES_C2D_COMPOSITION := true
