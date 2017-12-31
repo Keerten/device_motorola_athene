@@ -17,6 +17,7 @@
 
 package org.lineageos.settings.device;
 
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.NotificationManager;
 import android.os.Bundle;
