@@ -18,6 +18,8 @@ package org.lineageos.settings.device;
 
 import android.os.Bundle;
 
+import android.preference.PreferenceActivity;
+
 public class ActionsPreferenceActivity extends PreferenceActivity {
 
     @Override
