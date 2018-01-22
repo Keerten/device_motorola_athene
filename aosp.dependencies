@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "vendor_motorola_potter",
+    "target_path": "vendor/motorola/potter"
+  },
+  {
+    "repository": "kernel_motorola_msm8953",
+    "target_path": "kernel/motorola/msm8953"
+  }
+]
